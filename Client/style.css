@@ -1,0 +1,159 @@
+*
+{
+    font-family: 'Lato', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    /* text-transform: capitalize; */
+    transition: all .2s linear;
+}
+
+body 
+{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.header
+{
+    width: 100%;
+    background-color: rgb(238, 176, 94);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headerBtn
+{
+    margin: auto 0.5rem;
+    padding: 1rem;
+}
+.headerBtn:hover
+{
+    cursor: pointer;
+
+    background-color: lightcoral;
+}
+.mainContainer
+{
+    width: 80%;
+    min-height: 100vh;
+    background-color: rgb(180, 245, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Category
+{
+    font-size: x-large;
+    margin: 0 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.Category:hover
+{
+    cursor: pointer;
+
+    background-color:lightseagreen;
+}
+
+
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.Form > *
+{
+    margin: 0.5rem 0;
+}
+.Form > input , textarea, select
+{
+    padding: 0.5rem;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+.postThreadForm
+{
+    width: 50%;
+}
+
+
+.registerUserForm
+{
+
+    width: 50%;
+}
+.registerUserForm > *
+{
+    margin: 0.5rem 0;
+}
+
+/*
+.registerUserForm > button:hover
+{
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+*/
+button
+{
+    padding: 0.5rem;
+}
+button:hover
+{
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.threadExc
+{
+    margin: 0 2rem;
+    padding: 1rem 1rem;
+}
+.threadExc:hover
+{
+    border-bottom: 1px solid black;
+    cursor: pointer;    
+}
+
+.singlePageThread
+{   
+    width: 60%;
+    margin: 1rem 0;
+    padding: 1rem 0 0 0;
+}
+
+.singlePageThread > *
+{
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.comment
+{
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #ccc;;
+}
+.comment > *
+{
+    padding: 0.2rem 0;
+}
+
